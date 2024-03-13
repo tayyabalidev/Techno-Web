@@ -1,0 +1,50 @@
+	*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*navbar*/
+span{
+	color: blue;
+}
+.carousel-item img{
+	height: 550px;
+}
+.about{
+	background: hsl(0, 0%, 95%);
+}
+img{
+   height: 400px;
+   width: 300px;
+}
+.section{
+	background: hsl(0, 0%, 98%);
+}
+/*services*/
+.card i,h4,p{
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-top: 2px ;
+}
+.card i{
+    background: blue;
+    color: white;
+    height: 25px;
+    width: 6%;
+}
+.card button{
+	height: 40px;
+	width: 30%;
+	margin-left: 10px;
+}
+/*team*/
+.team{
+	background: hsl(0, 0%, 95%);
+}
+
+@media(max-width:768px){
+	.btn{
+		margin-top: 5px;
+	}
+}

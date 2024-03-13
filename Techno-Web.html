@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Techno-Web</title> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="my/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style7.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg border-bottom">
+	   		    <a href="" class="navbar-brand ms-3 fs-2">Techno- <span>web</span></a>
+		       <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+			   <span class="navbar-toggler-icon"></span>
+		       </button>
+		    <div class="collapse navbar-collapse " id="mynavbar">
+		      <ul class="navbar-nav ms-auto fs-5 me-3 text-center">
+			      <li class="nav-item">
+				   <a href="#mycarousel" class="nav-link active" style="color:blue;">Home</a>
+			      </li>
+			      <li class="nav-item">
+				   <a href="#about-us" class="nav-link">About</a>
+			      </li>
+			    <li class="nav-item dropdown">
+				   <a href="#Services1" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"  data-bs-target="#mydropdown">
+				    Service</a>
+				  <ul class="dropdown-menu" id="mydropdown">
+					<li><a href="" class="dropdown-item">page1</a></li>
+					<li><a href="" class="dropdown-item">page2</a></li>
+				    <li><a href="" class="dropdown-item">page3</a></li>
+				  </ul>
+			    </li>
+			        <li class="nav-item">
+			    	<a href="#our-team" class="nav-link">Our Team</a>
+			        </li>
+			        <li class="nav-item">
+				    <a href="#contact-us" class="nav-link">Contact</a>
+			        </li>
+		      </ul>
+		   </div>
+</nav>
+<!-- carousel -->
+<div class="containers">
+	<div class="row">
+		<div class="col">
+			<div id="mycarousel" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<li data-bs-target="#mycarousel" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#mycarousel" data-bs-slide-to="1"></li>
+					<li data-bs-target="#mycarousel" data-bs-slide-to="2"></li>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="my/img/c1.jpg" class="d-block w-100" width="500px">
+						<div class="carousel-caption">
+							<h6>This is a first slide</h6>
+							<p>What a beautiful slide & famouse in the world</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="my/img/c2.jpg" class="d-block w-100">
+						<div class="carousel-caption">
+							<h6>This is a second slide</h6>
+							<p>What a beautiful slide & famouse in the world</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="my/img/camra.jpg" class="d-block w-100">
+						<div class="carousel-caption">
+							<h6>This is a three slide</h6>
+							<p>What a beautiful slide & famouse in the world</p>
+						</div>
+					</div>
+					<a href="#mycarousel" class="carousel-control-prev" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon"></span>
+					</a>
+					<a href="#mycarousel" class="carousel-control-next" data-bs-slide="next">
+						<span class="carousel-control-next-icon"></span>
+					</a>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+<!-- about -->
+<div class="about py-5" id="about-us">
+<div class="container">
+	<div class="text-center">	
+		<h1>About <span>me</span></h1>
+		<hr / class="w-25 m-auto">
+	</div>
+		<div class="row py-5">
+			<div class="col-lg-6 col-md-6 col-sm-12 py-3">
+				<h1>What do you <span>Want to know?</span></h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi est laborum.</p>
+				<button class="btn btn-light mt-3">More about me</button>
+   
+                <div class="row py-5">
+                 	<div class="col-">
+                       <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                              My Hobbies
+                                            </button>
+                                    </h2>
+                                         <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                           <strong>This is the first item's accordion body.</strong> It is shown by default.
+                                        </div>
+                                  </div>
+                                </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target=" #collapseTwo">
+                                      My Qualification
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                       <strong>This is the second item's accordion body.</strong> It is hidden by default.
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                                  My Dreams
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    </div>
+                                 </div>
+                            </div>
+                        </div>
+                 	</div>
+                </div>
+                </div>
+                 <div class="col-md-6 py-5 m-auto text-center">
+				<div class="img">
+				<img src="my/img/man1.jpg">
+				</div>
+			</div>	   
+		</div>
+	</div>
+</div>	   
+<!-- services -->
+<div class="services py-5" id="Services1" style="background: hsl(0, 0%, 95%);">
+<div class="container py-5">
+	<div class="text-center">	
+		<h1>Our <span>Services</span></h1>
+		<hr class="w-25 m-auto">
+	</div>
+	<div class="row py-5">
+		<div class="col-md-4 mb-3">
+			<div class="card ">
+				<i class="fa-solid fa-users-line"></i>
+				<h4 class="card-title">Graphics Design</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, laborum.</p>
+				<button class="btn btn-primary">Book now!</button>
+			</div>
+		</div>
+		<div class="col-md-4 mb-3">
+			<div class="card" style="background: blue; color: white;">
+				<i class="fa-solid fa-code"></i>
+				<h4 class="card-title">Web Development</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, laborum.</p>
+				<button class="btn btn-light">Book now!</button>
+			</div>
+		</div>
+		<div class="col-md-4 mb-3">
+			<div class="card">
+				<i class="fa-sharp fa-solid fa-gears"></i>
+				<h4 class="card-title">App Development</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, laborum.</p>
+				<button class="btn btn-primary">Book now!</button>
+			</div>
+		</div>
+	</div>
+	<div class="row py-5">
+		<div class="col-md-4 mb-3">
+			<div class="card">
+				<i class="fa-solid fa-users-line"></i>
+				<h4 class="card-title">SEO</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, laborum.</p>
+				<button class="btn btn-primary">Book now!</button>
+			</div>
+		</div>
+		<div class="col-md-4 mb-3">
+			<div class="card" style="background: blue; color: white;">
+				<i class="fa-solid fa-code"></i>
+				<h4 class="card-title">Digital Marketing</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, laborum.</p>
+				<button class="btn btn-light">Book now!</button>
+			</div>
+		</div>
+		<div class="col-md-4 mb-3">
+			<div class="card">
+				<i class="fa-sharp fa-solid fa-gears"></i>
+				<h4 class="card-title">Web Design</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, laborum.</p>
+				<button class="btn btn-primary">Book now!</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- TEAM -->
+<div class="team py-5" id="our-team">
+	<div class="container py-5">
+		<div class="text-center">	
+		<h1>Our <span>Team</span></h1>
+		<hr class="w-25 m-auto">
+	</div>
+	    <div class="row py-5">
+            <div class="col-md-4">
+            	<div class="card text-center">
+            		<img src="my/img/profile man.jpg" style="border-radius: 80%; height: 250px;margin-left: 25px ; margin-top: 20px; outline: 2px solid darkgray;">
+            		<h5 class="mt-2">Ali</h5>
+            		Front end Developer
+            		<button class="btn btn-primary m-auto mt-2 mb-3">Read More</button>
+            	</div>
+            </div>
+            <div class="col-md-4">
+            	<div class="card text-center">
+            		<img src="my/img/profile man1.jpg" style="border-radius: 80%; height: 250px; margin-left: 25px ; margin-top: 20px; outline: 2px solid darkgray;">
+            		<h5 class="mt-2">Ahmed</h5>
+            		App Developer
+            		<button class="btn btn-primary m-auto mt-2 mb-3">Read More</button>
+            	</div>
+            </div>
+            <div class="col-md-4">
+            	<div class="card text-center">
+            		<img src="my/img/profile who.jpg" style="border-radius: 80%; height: 250px;margin-left: 25px ; margin-top: 20px; outline: 2px solid darkgray;">
+            		<h5 class="mt-2">Ahmed ALi</h5>
+            		Full stack web Developer
+            		<button class="btn btn-primary m-auto mt-2 mb-3">Read More</button>
+            	</div>
+            </div>
+	    </div>
+	</div>
+</div>
+<!-- contact -->
+<div class="contact py-5" id="contact-us">
+	<div class="container">
+		<div class="text-center">
+			<h2>Feel free <span>to connect</span></h2>
+			<hr class="w-25 m-auto">
+		</div>
+		<div class="row py-5">
+			<div class="col-md-5">
+				<div class="row mb-1">
+					<label for="email2" class="form-label">Email Address</label>
+					<input type="email" id="email2" class="form-control" placeholder="Enter Email">
+				</div>
+                <div class="row mb-1">
+                	<label for="" class="form-label">Password</label> 
+					<input type="Password" class="form-control"  placeholder="Password">
+                </div>
+                 <div class="row mb-1">
+                	<label for="" class="form-label">City</label> 
+					<input type="Password" class="form-control"  placeholder="City">
+                </div>
+                 <div class="row mb-3">
+                	<label for="" class="form-label">Address</label> 
+					<input type="Password" class="form-control"  placeholder="Address">
+                </div> 
+				<button class="btn btn-primary">Sign in</button>
+			</div>
+			<div class="col-md-7">
+				<div class="row m-auto">
+						<img src="my/img/profile man1.jpg" style="height: 250px; width: 50%; margin-left: 100px;
+						margin-top: 50px;">
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<!-- footer -->
+<footer style="background: black; color: white;">
+	<div class="text-center">
+		copyright@2024 developed by me
+	</div>
+	
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
